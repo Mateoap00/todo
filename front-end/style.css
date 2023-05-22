@@ -1,0 +1,29 @@
+#notificationContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+#notificationContainer.okay {
+    background-color: #62c46b;
+}
+
+#notificationContainer.error {
+    background-color: #ff5c6a;
+}
+
+#deleteContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: #ff5c6a;
+}
+
+#notificationContainer p,
+#deleteContainer p {
+    font-size: 1.25rem;
+}
